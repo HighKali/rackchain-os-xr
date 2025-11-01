@@ -1,0 +1,27 @@
+[
+  {
+    "azione": "sync_wallet",
+    "timestamp": "2025-11-01T23:05:35.573655",
+    "firma": "\ud83e\ude90 Sincronizzato sotto l\u2019orbita di Saturno",
+    "dati": {
+      "wallet": "XrjAKc...",
+      "balance": 5555.12,
+      "seed": "twelvetoprepareddlakesuddenlywesterneaten",
+      "badge": "sigillo_badge.svg",
+      "qr": "xr_wallet_qr.svg",
+      "api_key": "zodiacal_key_XR\u221e_DSN"
+    }
+  },
+  {
+    "azione": "swap",
+    "timestamp": "2025-11-01T23:05:35.631238",
+    "firma": "\u2652 Mercurio attivo",
+    "manifesto": "\ud83d\udd04 Swap eseguito sotto l\u2019ascendente di Mercurio il 2025-11-01T23:05:35.630973"
+  },
+  {
+    "azione": "create_pool",
+    "timestamp": "2025-11-01T23:05:35.687049",
+    "firma": "\u2653 Andromeda attiva",
+    "manifesto": "\ud83e\uddea Pool creata sotto la costellazione di Andromeda il 2025-11-01T23:05:35.686807"
+  }
+]

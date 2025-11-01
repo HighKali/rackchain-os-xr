@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Costellazione XR∞_Industrial</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mappa orbitale dei nodi XR∞_Industrial e del token $DSN.">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', monospace;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #e0e0e0;
+    }
+    header {
+      background: rgba(0,0,0,0.85);
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 2em;
+      color: #00ffff;
+      box-shadow: 0 2px 10px #000;
+    }
+    nav {
+      text-align: center;
+      padding: 10px;
+      background: rgba(0,0,0,0.6);
+    }
+    nav a {
+      margin: 0 15px;
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .token {
+      text-align: center;
+      padding: 30px 20px;
+      background: rgba(0,255,255,0.05);
+      border-bottom: 1px solid #444;
+    }
+    .token a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .node {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid #444;
+      border-radius: 12px;
+      margin: 20px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(0,255,255,0.2);
+      transition: transform 0.3s ease;
+    }
+    .node:hover {
+      transform: scale(1.03);
+    }
+    .node img {
+      max-width: 100%;
+      margin: 10px 0;
+      border-radius: 6px;
+    }
+    .node a {
+      display: inline-block;
+      margin: 5px 0;
+      padding: 8px 12px;
+      background: #00ffff;
+      color: #0f0f0f;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .node a:hover {
+      background: #00ccff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>🌌 Costellazione XR∞_Industrial</header>
+
+  <nav>
+    <a href="sigillo_index.md" target="_blank">📜 Manifesto Orbitale</a>
+    <a href="https://birdeye.so/token/0xfc90516a1f736FaC557e09D8853dB80dA192c296?chain=polygon" target="_blank">📈 Prezzo $DSN</a>
+    <a href="https://rackchain.io/dsn-dashboard" target="_blank">🌐 Dashboard XR∞</a>
+  </nav>
+
+  <section class="token">
+    <h2>🪙 Token Orbitale: $DSN</h2>
+    <p><strong>Nome:</strong> Destinazione Sovrana Neuronale</p>
+    <p><strong>Simbolo:</strong> <code>$DSN</code></p>
+    <p><strong>Contratto:</strong> <code>0xfc90516a1f736FaC557e09D8853dB80dA192c296</code></p>
+    <p><strong>Rete:</strong> Polygon</p>
+    <p><strong>Prezzo Live:</strong> <a href="https://birdeye.so/token/0xfc90516a1f736FaC557e09D8853dB80dA192c296?chain=polygon" target="_blank">📈 Birdeye Tracker</a></p>
+  </section>
+
+  <div class="container">
+    <div class="node">
+      <h2>🧿 Nodo: xr∞_node_001</h2>
+      <img src="sigillo_badge.svg" alt="Badge Orbitale">
+      <p><strong>Commit Git:</strong><br><code>7c9e1a2b3d4f5e6a7b8c9d0e1f2a3b4c5d6e7f8a</code></p>
+      <p><strong>SHA256 ZIP:</strong><br><code>4c158fc6fa55ee73afc81deb26b2823c288fbd3e4b731327bd238e6277d2a8d7</code></p>
+      <a href="validator.html">Validator Orbitale</a>
+      <a href="governor.html">Governatore Orbitale</a>
+      <a href="validator_audit.html">Audit Orbitale</a>
+    </div>
+  </div>
+
+  <footer>🧾 Custode Orbitale · XR∞ · Ultimo aggiornamento: 01/11/2025</footer>
+
+</body>
+</html>
