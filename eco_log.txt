@@ -24,3 +24,4 @@
 [2025-11-01 14:09:15.527303] ✅ Nodo autenticato: xr∞_node_001
 [2025-11-01 14:09:16.441665] 🧿 Sigillo registrato: sigillo_20251101_140915.zip | 4c158fc6fa55ee73afc81deb26b2823c288fbd3e4b731327bd238e6277d2a8d7
 "[🧾 Commit Git] Sat Nov 1 14:09:16 CET 2025 6f3f6765e8b4270353d6484b4f42b0b9fd2a8620"
+"[🧼 Sanificazione Git] Sat Nov 1 14:09:17 CET 2025 6f3f6765e8b4270353d6484b4f42b0b9fd2a8620"
