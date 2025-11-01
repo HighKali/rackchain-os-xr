@@ -8,3 +8,7 @@
 [2025-11-01 13:08:07.366260] ✅ Nodo autenticato: xr∞_node_001
 [2025-11-01 13:08:08.112220] 🧿 Sigillo registrato: sigillo_20251101_130807.zip | a8cff08a047154a4e6b74f6a0342f68ee0906727445f505ad7bb25c8f5da99de
 [🧾 Commit Git] Sat Nov  1 13:08:08 CET 2025 645281b44d4d9aa12b75b2bc5f1653ac36a5b648
+[🧼 Sanificazione Git] Sat Nov  1 13:09:38 CET 2025 87029a414955a01046141e8407aa91aa11a70803
+[2025-11-01 13:32:34.132861] ✅ Nodo autenticato: xr∞_node_001
+[2025-11-01 13:32:34.989676] 🧿 Sigillo registrato: sigillo_20251101_133234.zip | 41841bfaf76d52d79a469fee8675cff72b2359b706836f33404d1bde8eb3f195
+[🧾 Commit Git] Sat Nov  1 13:32:35 CET 2025 87029a414955a01046141e8407aa91aa11a70803
