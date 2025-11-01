@@ -1,53 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
   <meta charset="UTF-8">
   <title>Costellazione XR∞_Industrial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <style>
     body {
-      background: #0f0f0f;
+      margin: 0;
+      font-family: 'Orbitron', monospace;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
       color: #e0e0e0;
-      font-family: monospace;
-      padding: 20px;
     }
-    h1 {
+    header {
+      position: sticky;
+      top: 0;
+      background: rgba(0,0,0,0.8);
+      padding: 20px;
       text-align: center;
-      margin-bottom: 40px;
+      font-size: 2em;
+      color: #00ffff;
+      box-shadow: 0 2px 10px #000;
+      z-index: 1000;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
     }
     .node {
+      background: rgba(255,255,255,0.05);
       border: 1px solid #444;
+      border-radius: 12px;
+      margin: 20px;
       padding: 20px;
-      margin-bottom: 30px;
-      border-radius: 10px;
-      background: #1a1a1a;
+      width: 300px;
+      box-shadow: 0 0 15px rgba(0,255,255,0.2);
+      transition: transform 0.3s ease;
+    }
+    .node:hover {
+      transform: scale(1.03);
     }
     .node img {
-      max-width: 200px;
+      max-width: 100%;
       margin: 10px 0;
+      border-radius: 6px;
     }
     .node a {
-      color: #00ffff;
+      display: inline-block;
+      margin: 5px 0;
+      padding: 8px 12px;
+      background: #00ffff;
+      color: #0f0f0f;
       text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s ease;
     }
     .node a:hover {
-      text-decoration: underline;
+      background: #00ccff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: rgba(0,0,0,0.6);
+      font-size: 0.9em;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <h1>🌌 Costellazione XR∞_Industrial</h1>
+  <header>🌌 Costellazione XR∞_Industrial</header>
+  <div class="container">
 
-  <div class="node">
-    <h2>🧿 Nodo: xr∞_node_001</h2>
-    <img src="sigillo_badge.svg" alt="Badge Orbitale">
-    <p><strong>Commit Git:</strong> <code>7c9e1a2b3d4f5e6a7b8c9d0e1f2a3b4c5d6e7f8a</code></p>
-    <p><strong>SHA256 ZIP:</strong> <code>4c158fc6fa55ee73afc81deb26b2823c288fbd3e4b731327bd238e6277d2a8d7</code></p>
-    <p>
-      🔗 <a href="validator.html">Validator Orbitale</a><br>
-      🔗 <a href="governor.html">Governatore Orbitale</a><br>
-      🔗 <a href="validator_audit.html">Audit Orbitale</a>
-    </p>
+    <div class="node">
+      <h2>🧿 Nodo: xr∞_node_001</h2>
+      <img src="sigillo_badge.svg" alt="Badge Orbitale">
+      <p><strong>Commit Git:</strong><br><code>7c9e1a2b3d4f5e6a7b8c9d0e1f2a3b4c5d6e7f8a</code></p>
+      <p><strong>SHA256 ZIP:</strong><br><code>4c158fc6fa55ee73afc81deb26b2823c288fbd3e4b731327bd238e6277d2a8d7</code></p>
+      <a href="validator.html">Validator Orbitale</a>
+      <a href="governor.html">Governatore Orbitale</a>
+      <a href="validator_audit.html">Audit Orbitale</a>
+    </div>
+
   </div>
-
+  <footer>🧾 Custode Orbitale · XR∞ · Ultimo aggiornamento: 01/11/2025</footer>
 </body>
 </html>
