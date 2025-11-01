@@ -1,0 +1,7 @@
+🧿 Manifesto Orbitale XR∞
+Nodo ID: xr∞_node_001
+ZIP: sigillo_20251101_130807.zip
+Timestamp: 1761998888.0857086
+SHA256: a8cff08a047154a4e6b74f6a0342f68ee0906727445f505ad7bb25c8f5da99de
+Commit Git: 645281b44d4d9aa12b75b2bc5f1653ac36a5b648
+QR: vpn_qr.png

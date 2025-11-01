@@ -1,39 +1,33 @@
-# sigillo_index.py — Genera sigillo_index.json da policy_sigil.txt
+import json, hashlib, time
+from eco_log import log_event
 
-import os
-import re
-import json
+def genera_sigillo(nodo_id, zip_name):
+    timestamp = time.time()
+    hash_zip = hashlib.sha256(open(zip_name, "rb").read()).hexdigest()
 
-POLICY_PATH = os.path.expanduser("~/rackchain-os-xr/xr∞_industrial/policy_sigil.txt")
-OUTPUT_PATH = os.path.expanduser("~/rackchain-os-xr/xr∞_industrial/sigillo_index.json")
+    sigillo = {
+        "nodo": nodo_id,
+        "timestamp": timestamp,
+        "zip": zip_name,
+        "hash": hash_zip
+    }
 
-def estrai_firme():
-    if not os.path.exists(POLICY_PATH):
-        return []
-    with open(POLICY_PATH, "r") as f:
-        testo = f.read()
-    return re.findall(r"Firma del nodo: (.+?)\nData: (.+?)\n", testo)
+    with open("sigillo_index.json", "w") as f:
+        json.dump(sigillo, f, indent=2)
 
-def genera_index(firme):
-    index = []
-    for nodo, data in firme:
-        index.append({
-            "nodo": nodo,
-            "firma": data,
-            "ruolo": "governatore",
-            "sigillo": "🧿",
-            "status": "attivo"
-        })
-    return index
+    with open("sigillo_manifesto.txt", "w") as m:
+        m.write(f"🧿 Manifesto Orbitale XR∞\n")
+        m.write(f"Nodo ID: {nodo_id}\n")
+        m.write(f"ZIP: {zip_name}\n")
+        m.write(f"Timestamp: {timestamp}\n")
+        m.write(f"SHA256: {hash_zip}\n")
+        m.write(f"Commit Git: {get_commit_hash()}\n")
+        m.write(f"QR: vpn_qr.png\n")
 
-def salva_index(index):
-    with open(OUTPUT_PATH, "w") as f:
-        json.dump(index, f, indent=2)
-    print(f"✅ Registro generato: {OUTPUT_PATH}")
+    log_event(f"🧿 Sigillo registrato: {zip_name} | {hash_zip}")
+    return sigillo
 
-# Esegui
-if __name__ == "__main__":
-    firme = estrai_firme()
-    index = genera_index(firme)
-    salva_index(index)
+def get_commit_hash():
+    import subprocess
+    return subprocess.check_output(["git", "rev-parse", "HEAD"]).decode().strip()
 

@@ -1,9 +1,6 @@
-[
-  {
-    "nodo": "localhost",
-    "firma": "2025-11-01",
-    "ruolo": "governatore",
-    "sigillo": "🧿",
-    "status": "attivo"
-  }
-]
+{
+  "nodo": "xr\u221e_node_001",
+  "timestamp": 1761998888.0857086,
+  "zip": "sigillo_20251101_130807.zip",
+  "hash": "a8cff08a047154a4e6b74f6a0342f68ee0906727445f505ad7bb25c8f5da99de"
+}
