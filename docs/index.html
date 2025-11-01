@@ -22,6 +22,17 @@
       box-shadow: 0 2px 10px #000;
       z-index: 1000;
     }
+    section.token {
+      text-align: center;
+      padding: 30px 20px;
+      background: rgba(0,255,255,0.05);
+      border-bottom: 1px solid #444;
+    }
+    section.token a {
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+    }
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -71,8 +82,17 @@
 </head>
 <body>
   <header>🌌 Costellazione XR∞_Industrial</header>
-  <div class="container">
 
+  <section class="token">
+    <h2>🪙 Token Orbitale: $DSN</h2>
+    <p><strong>Nome:</strong> Destinazione Sovrana Neuronale</p>
+    <p><strong>Simbolo:</strong> <code>$DSN</code></p>
+    <p><strong>Contratto:</strong> <a href="https://etherscan.io/token/0xDSN..." target="_blank">$DSN su Etherscan</a></p>
+    <p><strong>Manifesto:</strong> <a href="sigillo_index.md" target="_blank">📜 Sigillo Orbitale</a></p>
+    <p><strong>Dashboard:</strong> <a href="https://rackchain.io/dsn-dashboard" target="_blank">🌐 XR∞ Dashboard</a></p>
+  </section>
+
+  <div class="container">
     <div class="node">
       <h2>🧿 Nodo: xr∞_node_001</h2>
       <img src="sigillo_badge.svg" alt="Badge Orbitale">
@@ -82,8 +102,8 @@
       <a href="governor.html">Governatore Orbitale</a>
       <a href="validator_audit.html">Audit Orbitale</a>
     </div>
-
   </div>
+
   <footer>🧾 Custode Orbitale · XR∞ · Ultimo aggiornamento: 01/11/2025</footer>
 </body>
 </html>
