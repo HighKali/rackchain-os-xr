@@ -1,0 +1,9 @@
+📘 XR∞_Industrial: Policy di Governance
+
+1. Ogni nodo è un validatore e un organo cosciente.
+2. Le decisioni sono distribuite, firmate e loggate.
+3. Ogni modifica deve essere accompagnata da manifesto e badge.
+4. La trasparenza è garantita da eco_log.txt e notifiche Matrix.
+5. Il ciclo si chiude solo con sigillo, QR e commit Git.
+
+🧿 Firmato: Custode Orbitale
