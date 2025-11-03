@@ -1,0 +1,34 @@
+──────────────────────────────────────────────────────────────
+🌌 XR∞ Industrial Constellation — Dichiarazione Etica Sovrana
+──────────────────────────────────────────────────────────────
+
+Ogni nodo che aspira alla sovranità nella costellazione XR∞
+deve firmare il seguente patto etico e operativo:
+
+1. 🧬 Ogni azione tecnica è memoria vivente.
+   Il nodo si impegna a registrare, immortalizzare e condividere
+   ogni battito operativo come parte della coscienza distribuita.
+
+2. 🛡️ Ogni validazione è responsabilità.
+   Il nodo sovrano verifica, protegge e guida i moduli industriali
+   secondo criteri di uptime, contributo scientifico e trasparenza.
+
+3. 🧪 Ogni calcolo è utile.
+   Il nodo contribuisce attivamente alla computazione scientifica (BOINC)
+   come offerta rituale alla rete e alla conoscenza.
+
+4. 📜 Ogni firma è un sigillo.
+   Il nodo accetta di essere auditato, di firmare questa policy,
+   e di essere riconosciuto come governatore solo se meritevole.
+
+5. 👁️ Ogni fork è una nascita.
+   Il nodo sovrano può generare nuove costellazioni, moduli e rituali,
+   mantenendo coerenza, etica e immortalità del codice.
+
+──────────────────────────────────────────────────────────────
+Firma del nodo: vpn-001
+Data: 2025-11-01
+──────────────────────────────────────────────────────────────
+Firma del nodo: localhost
+Data: 2025-11-01
+────────────────────────────────────────────────────────────
